@@ -1,3 +1,5 @@
+# merge sort (not in place)
+
 arr = [8,6,7,35,7,8,5,3,1]
 
 def mergeSort(arr):
