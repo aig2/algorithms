@@ -1,5 +1,5 @@
 # Inplace Quicksort with Lomuto partition scheme
-arr = [8,10,1,2,9,7,4,5,8,6,4,5,6,5,2,3,5,76,4,3,2]
+#arr = [8,10,1,2,9,7,4,5,8,6,4,5,6,5,2,3,5,76,4,3,2]
 
 def quicksortLomuto(arr, left, right):
     if(left<right):
@@ -23,7 +23,6 @@ def partition(arr, left, right):
     swap(arr,p,right)        
     return p
 
-quicksortLomuto(arr,0,len(arr)-1)
-
-print arr
+#quicksortLomuto(arr,0,len(arr)-1)
+#print arr
 
