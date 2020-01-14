@@ -13,3 +13,6 @@ def fast_power(base,power,result):
 		power = power // 2
 		base = base * base
 		return fast_power(base,power,result)
+	
+	
+print(fast_power(2,3,1))
