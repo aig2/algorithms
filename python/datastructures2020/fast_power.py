@@ -6,10 +6,10 @@ def fast_power(base,power,result):
 	if power % 2 == 0:
 		base = base * base
 		power = power // 2
-		return fp(base,power,result)
+		return fast_power(base,power,result)
 	else:
 		power -= 1
 		result = result * base
 		power = power // 2
 		base = base * base
-		return fp(base,power,result)
+		return fast_power(base,power,result)
